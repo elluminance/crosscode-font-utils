@@ -1,0 +1,8 @@
+{
+    "id": "font-utils",
+    "version": "1.0.0",
+
+    "description": "Adds various new font colors!",
+
+    "prestart": "prestart.js"
+}
