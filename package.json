@@ -1,5 +1,6 @@
 {
-    "id": "font-utils",
+    "name": "font-utils",
+    "displayName": "Font Utilities",
     "version": "1.1.0",
 
     "description": "Adds various new font colors!",
