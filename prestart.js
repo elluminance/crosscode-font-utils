@@ -122,3 +122,5 @@ ig.TextCommands.register("C", true, (argument, index, commands) => {
         }
     })
 })
+
+ig.TextCommands.register("l", true, argument => ig.lang.get(argument))

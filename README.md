@@ -23,3 +23,5 @@ As for the named color codes:
 | <span style="color:#fc76b0;">Pink</span> | `\\C[pink]` |
 | <span style="color:#0ffcc5;">Teal</span> | `\\C[teal]` |
 | <span style="color:#8efc20;">Lime</span> | `\\C[lime]` |
+
+There is also support for inserting text from a lang entry by using the `\\l[...]` text command. This can be used to look up some existing text - for example, `\\l[sc.gui.menu.equip.foc]` would be replaced with `Focus` (if you're playing in English) or whatever the set language would call it.
