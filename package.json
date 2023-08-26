@@ -1,9 +1,16 @@
 {
     "name": "font-utils",
     "displayName": "Font Utilities",
-    "version": "1.2.0",
+    "version": "1.2.1",
 
     "description": "Adds various new font colors!",
 
-    "prestart": "prestart.js"
+    "prestart": "dist/prestart.js",
+
+    "ccmodDependencies": {},
+
+    "devDependencies": {
+        "typescript": "^5.1.6",
+        "ultimate-crosscode-typedefs": "el20202/ultimate-crosscode-typedefs"
+    }
 }

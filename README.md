@@ -2,6 +2,8 @@
 *also known as `font-utils`*
 
 ---
+*Support will not be provided unless using the [latest release](https://github.com/EL20202/crosscode-font-utils/releases/latest).*
+
 Adds in some new font colors for you to use in CrossCode! This adds in a total of 6 brand new font colors - as well as making one vanilla font color available for all character sets instead of just one! It also adds in a handy new text command to let you color fonts using color names rather than a bunch of IDs.
 
 Colors offered:<br>
@@ -11,17 +13,23 @@ As for the named color codes:
 
 | Color | Code |
 |-|-|
-| <span style="color:#ffffff;">White</span> | `\\C[white]` |
-| <span style="color:#ff6969;">Red</span> | `\\C[red]` |
-| <span style="color:#65ff89;">Green</span> | `\\C[green]` |
-| <span style="color:#ffe430;">Yellow</span> | `\\C[yellow]` |
-| <span style="color:#808080;">Gray</span> | `\\C[gray]` *or* `\\C[grey]` |
-| <span style="color:#ff8932;">Orange</span> | `\\C[orange]` |
-| <span style="color:#8a41d8;">Purple</span> | `\\C[purple]` |
-| <span style="color:#5fc3fc;">Blue</span> | `\\C[blue]` |
-| <span style="color:#2334ed;">Dark Blue</span> | `\\C[dark-blue]` *or* `\\C[dark_blue]`|
-| <span style="color:#fc76b0;">Pink</span> | `\\C[pink]` |
-| <span style="color:#0ffcc5;">Teal</span> | `\\C[teal]` |
-| <span style="color:#8efc20;">Lime</span> | `\\C[lime]` |
+| White | `\\C[white]` |
+| Red | `\\C[red]` |
+| Green | `\\C[green]` |
+| Yellow | `\\C[yellow]` |
+| Gray | `\\C[gray]` *or* `\\C[grey]` |
+| Orange | `\\C[orange]` |
+| Purple | `\\C[purple]` |
+| Blue | `\\C[blue]` |
+| Dark Blue | `\\C[dark-blue]` *or* `\\C[dark_blue]`|
+| Pink | `\\C[pink]` |
+| Teal | `\\C[teal]` |
+| Lime | `\\C[lime]` |
+| Fuchsia | `\\C[fuchsia]` |
+| Olive | `\\C[olive]` |
+| Violet | `\\C[violet]` |
+| Brown | `\\C[brown]` |
+| Gold | `\\C[gold]` |
+| Dark Red | `\\C[dark-red]` *or* `\\C[dark_red]` |
 
 There is also support for inserting text from a lang entry by using the `\\l[...]` text command. This can be used to look up some existing text - for example, `\\l[sc.gui.menu.equip.foc]` would be replaced with `Focus` (if you're playing in English) or whatever the set language would call it.
