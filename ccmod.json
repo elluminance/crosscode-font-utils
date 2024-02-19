@@ -2,8 +2,9 @@
     "id": "font-utils",
     "version": "1.2.0",
     "title": "Font Utilities",
-
     "description": "Adds various new font colors!",
-
+    "repository": "https://github.com/elluminance/crosscode-font-utils",
+    "tags": ["library"],
+    "authors": "elluminance",
     "prestart": "dist/prestart.js"
 }
